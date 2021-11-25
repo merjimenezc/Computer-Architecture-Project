@@ -18,18 +18,6 @@ We made sure to define all 8 control signals as global variables: jump, RegDst, 
   
 1.4	Challenges and Limitations
  We encountered some challenges during the implementation of our single-cycle MIPS CPU portion of this assignment. The fetch functionality of the project was not completely implemented, and it is not working properly. This might be due to an issue with the storage of the variable that is being used to store the character instructions. There are no errors when opening the file as it opens successfully. Our program has some limitations due to the missing implementation of the execute functionality and the control unit of the single-cycle CPU. Without many of these functionalities, we were unable to get our program to work correctly. However, we succeeded at implementing a successful decode function for this portion of the project.
-2.	Pipelined MIPS CPU 
-2.1	Overview
-// Explain the overall structure of your pipelined CPU program
-2.2	Baseline Code Structure
-// Explain the detailed code structure that shows the functions and variables with how you implemented and how those are interacting with the other functions or variables.
-// Especially in pipelined CPU, explain how you handled NOPs and Flushes (e.g., implementing dependency checking logic and so on)
-2.2.1	Functions
-2.2.2	Variables
-2.3	 Optimizations
-// If you implemented data forwarding, explain how you implemented here. If otherwise, don’t need to add this section. 
-2.4	Execution Results
-// Show how to run your program and a sample output screenshot
-// If you implemented data forwarding, please add one more sample output with data forwarding that may have fewer cycles. 
+
 2.5	Challenges and Limitations
 We encountered challenges during the implementation of the Pipelined MIPS CPU program. We were unable to implement any of the functionalities and logic required for the program and therefore some parts do not work properly. 
