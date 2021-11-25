@@ -33,5 +33,3 @@ We made sure to define all 8 control signals as global variables: jump, RegDst, 
 // If you implemented data forwarding, please add one more sample output with data forwarding that may have fewer cycles. 
 2.5	Challenges and Limitations
 We encountered challenges during the implementation of the Pipelined MIPS CPU program. We were unable to implement any of the functionalities and logic required for the program and therefore some parts do not work properly. 
-
-![image](https://user-images.githubusercontent.com/44124264/143346691-6f8e4c58-504b-48a8-a336-9f6c799b3940.png)
